@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../style.css">
+    <title>Conversor de moeda</title>
+</head>
+<body>
+
+    <main>
+        <div>
+            <label class="escritaSelecao" for="moedaOrigem">Qual é a moeda
+                <section>
+                    <select name="" id="moedaOrigem">
+                        <option>--</option>
+                        <option>Real</option>
+                        <option>Dolar</option>
+                        <option>Euro</option>
+                    </select>
+                </section>
+            </label>
+        </div>
+
+        <div>
+            <label class="escritaSelecao" for="cambio">Converter <b>para</b>
+                <select class="cambio" id="cambio" name="cambio">
+
+                    <option value="" disabled selected>Escolha uma moeda</option>
+                    <option value="Real">Real</option>
+                    <option value="Dolar">Dólar</option>
+                    <option value="Euro">Euro</option>
+                </select>
+            </label>
+        </div>
+
+        <div>
+            <label class="escritaSelecao" id="brl" for="valor">Valor
+                <input type="number" name="valor" placeholder="Digite o valor para conversão.">
+            </label>
+            <button id="cv">Converter</button>
+        </div>
+        <br>
+        <section class="conversao">
+            <img class="bandeira" id="inicio" src="semSelecao.png" alt="imagem da moeda inicial">
+            <p class="paragrafo" id="escolhidaEscrita">--</p>
+            <br>
+            <p class="paragrafo" id="escolhidaNumerica">--</p>
+            <br>
+            <img class="bandeira" id="seta" src="seta.png">
+            <br>
+            <img class="bandeira" id="final" src="semSelecao.png" alt="imagem da moeda final">
+            <p class="paragrafo" id="nomeFinal">--</p>
+            <br>
+            <p class="paragrafo" id="res">--</p>
+        </section>
+    
+    
+
+    <div class="bandeira">
+        
+    </div>
+    
+    </main>
+    
+</body>
+<script src="./../API.js"></script>
+</html>

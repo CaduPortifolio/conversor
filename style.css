@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#brl{
+    top: 3%;
+}
+
+
+
+.bandeira {
+    height: 550px;
+}
+
+#br {
+    max-width: 25%;
+}
+
+.bandeira {
+    max-width: 25%;
+    max-height: 25px;
+}
+
+#cv {
+    cursor: pointer;
+}
+
+body{
+    background-image: url('asets/cambio.png');
+    background-size: cover;      /* cobre a tela inteira */
+    background-repeat: no-repeat;/* não repete */
+    background-position: center; /* centraliza */
+}
+main {
+    width: 375px;
+    background: #F4F4F4;
+    border-radius: 20px;
+    
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    border-radius: 5%;
+}
+
+#cv{
+    margin-top: 5px;
+}
+
+
+.escritaSelecao{
+    font-size: 10px;
+    
+}
+
+.paragrafo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conversao {
+    display: flex;
+    flex-direction: column;
+}
